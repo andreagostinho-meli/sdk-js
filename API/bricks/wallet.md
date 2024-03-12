@@ -162,11 +162,11 @@ The `settings` object has properties to initialize and customize the brick being
 
 Initialization is an object with the properties the brick will initialize with.
 
-| Initialization key | Type      | Description                                                                 |               |
-| ------------------ | --------- | --------------------------------------------------------------------------- | ------------- |
-| `preferenceId`     | `string`  | Preference generated in the backend                                         | **OPTIONAL³** |
-| `redirectMode`     | `string`  | Indicates how the experience will be conducted. [See more](#opening-scheme) | **REQUIRED**  |
-| `marketplace`      | `boolean` | Indicates if the integration is for a marketplace flow.                     | **OPTIONAL**  |
+| Initialization key | Type     | Description                                                                 |               |
+| ------------------ | -------- | --------------------------------------------------------------------------- | ------------- |
+| `preferenceId`     | `string` | Preference generated in the backend                                         | **OPTIONAL³** |
+| `redirectMode`     | `string` | Indicates how the experience will be conducted. [See more](#opening-scheme) | **REQUIRED**  |
+| `marketplace`      | `boolean`| Indicates if the integration is for a marketplace flow.                     | **OPTIONAL**  |
 
 ³ **Optional** when integrating through the flow that creates the preference on submit
 
@@ -206,7 +206,7 @@ Customizations object is used to load Brick under different conditions.
 
 ---
 
-¹ **Value prop**: for more details about the value props and its behavior, see the [Change texts](https://www.mercadopago.com/developers/en/docs/checkout-bricks/wallet-brick/visual-customizations/change-texts) page.
+¹ **Value prop**: for more details about the value props and its behavior, see the [Change texts](https://www.mercadopago.com/developers/en/docs/checkout-bricks/wallet-brick/additional-customization/change-texts) page.
 
 #### Value prop availability
 
