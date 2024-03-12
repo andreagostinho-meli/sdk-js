@@ -223,8 +223,8 @@ Customizations object is used to load Brick under different conditions.
 | :exclamation: Important notice about `payment_methods_logos` |
 | :----------------------------------------------------------- |
 
-> When using using the value prop `payment_methods_logos` it is recommended to initialize with a preference.
-> If the preference has zero or only one valid payment method, Wallet Brick will stop displaying the payment methods logos and will show a fallback text according to the country.
+> When using using the value prop `payment_methods_logos` it is recommended to initialize with a preference.<br>
+> If the preference has zero or only one valid payment method, Wallet Brick will stop displaying the payment methods logos and will show a fallback text according to the country.<br>
 > See the table below to know each fallback text.
 
 | Country           | Fallback text                                |
