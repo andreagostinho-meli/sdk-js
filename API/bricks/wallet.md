@@ -239,6 +239,8 @@ Customizations object is used to load Brick under different conditions.
 
 <br>
 
+> Notes
+
 ### **Opening scheme**
 
 There are three ways to open the checkout experience: redirect on the same tab, which is the default, redirecting to a new tab or using a modal.
