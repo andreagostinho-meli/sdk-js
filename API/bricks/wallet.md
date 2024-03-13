@@ -195,6 +195,7 @@ Customizations object is used to load Brick under different conditions.
 | `texts`                    | `object`  | Controls the texts of the brick.                                                                                                                                                                                      | **OPTIONAL** |
 | `texts.action`             | `string`  | Defines the call to action text. Options available: `pay`, `buy`. Default is `pay`.                                                                                                                                   | **OPTIONAL** |
 | `texts.valueProp`¹         | `string`  | Defines the value prop. Options available: `practicality`, `convenience_all`, `security_details`, `security_safety`, `convenience_credits`, `smart_option` and `payment_methods_logos`. Default is `security_safety`. | **OPTIONAL** |
+| `texts.actionComplement`¹  | `string`  | Defines the action complement. Options available: `brand` and `amount`. Default is `brand`.                                                                                                                           | **OPTIONAL** |
 | `visual`                   | `object`  | Controls visual aspects of the brick.                                                                                                                                                                                 | **OPTIONAL** |
 | `visual.buttonBackground`  | `string`  | Defines the brick background color. Available options: `default`, `black`, `blue`, `white`. Default is `default`.                                                                                                     | **OPTIONAL** |
 | `visual.buttonHeight`      | `string`  | Defines the brick height. Default is `48px`. Min: `48px`. Max: free choice.                                                                                                                                           | **OPTIONAL** |
@@ -206,7 +207,7 @@ Customizations object is used to load Brick under different conditions.
 
 ---
 
-¹ **Value prop**: for more details about the value props and its behavior, see the [Change texts](https://www.mercadopago.com/developers/en/docs/checkout-bricks/wallet-brick/visual-customizations/change-texts) page.
+¹ For more information, see the [Change texts](https://www.mercadopago.com/developers/en/docs/checkout-bricks/wallet-brick/visual-customizations/change-texts) page.
 
 #### Value prop availability
 
@@ -220,8 +221,7 @@ Customizations object is used to load Brick under different conditions.
 | :chile: `Chile`         | `practicality`, `security_details`, `security_safety`, `smart_option`, `payment_methods_logos`                                           |
 | :peru: `Peru`           | `practicality`, `security_details`, `security_safety`, `smart_option`, `payment_methods_logos`                                           |
 
-> [!CAUTION]
-> **Important notice about `payment_methods_logos`**<br>
+> [!CAUTION] > **Important notice about `payment_methods_logos`**<br>
 > When using the value prop `payment_methods_logos`, it is recommended to initialize Wallet Brick with a preference.<br>
 > If the preference has zero or only one valid payment method, Wallet Brick will stop displaying the payment methods logos and will show a fallback text according to the country.<br>
 > See the table below to know each fallback text.
