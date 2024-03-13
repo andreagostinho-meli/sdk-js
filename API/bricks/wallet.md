@@ -210,30 +210,30 @@ Customizations object is used to load Brick under different conditions.
 
 #### Value prop availability
 
-| Country           | Value prop availability                                                                                                                  |
-| ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| `MLA (Argentina)` | `practicality`, `convenience_all`, `security_details`, `security_safety`, `convenience_credits`, `smart_option`, `payment_methods_logos` |
-| `MLB (Brazil)`    | `practicality`, `convenience_all`, `security_details`, `security_safety`, `convenience_credits`, `smart_option`, `payment_methods_logos` |
-| `MLM (Mexico)`    | `practicality`, `convenience_all`, `security_details`, `security_safety`, `convenience_credits`, `smart_option`, `payment_methods_logos` |
-| `MCO (Colombia)`  | `practicality`, `security_details`, `security_safety`, `smart_option`,`payment_methods_logos`                                            |
-| `MLU (Uruguay)`   | `practicality`, `security_details`, `security_safety`, `smart_option`, `payment_methods_logos`                                           |
-| `MLC (Chile)`     | `practicality`, `security_details`, `security_safety`, `smart_option`, `payment_methods_logos`                                           |
-| `MPE (Peru)`      | `practicality`, `security_details`, `security_safety`, `smart_option`, `payment_methods_logos`                                           |
+| Country                 | Value prop availability                                                                                                                  |
+| ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| :argentina: `Argentina` | `practicality`, `convenience_all`, `security_details`, `security_safety`, `convenience_credits`, `smart_option`, `payment_methods_logos` |
+| :brazil: `Brazil`       | `practicality`, `convenience_all`, `security_details`, `security_safety`, `convenience_credits`, `smart_option`, `payment_methods_logos` |
+| :mexico: `Mexico`       | `practicality`, `convenience_all`, `security_details`, `security_safety`, `convenience_credits`, `smart_option`, `payment_methods_logos` |
+| :colombia: `Colombia`   | `practicality`, `security_details`, `security_safety`, `smart_option`,`payment_methods_logos`                                            |
+| :uruguay: `Uruguay`     | `practicality`, `security_details`, `security_safety`, `smart_option`, `payment_methods_logos`                                           |
+| :chile: `Chile`         | `practicality`, `security_details`, `security_safety`, `smart_option`, `payment_methods_logos`                                           |
+| :peru: `Peru`           | `practicality`, `security_details`, `security_safety`, `smart_option`, `payment_methods_logos`                                           |
 
 > [!CAUTION] > **Important notice about `payment_methods_logos`**<br>
 > When using using the value prop `payment_methods_logos`, it is recommended to initialize Wallet Brick with a preference.<br>
 > If the preference has zero or only one valid payment method, Wallet Brick will stop displaying the payment methods logos and will show a fallback text according to the country.<br>
 > See the table below to know each fallback text.
 
-| Country           | Fallback text                                |
-| ----------------- | -------------------------------------------- |
-| `MLA (Argentina)` | `Account money or installments with no card` |
-| `MLB (Brazil)`    | `Account money or installments with no card` |
-| `MLM (Mexico)`    | `Account money or installments with no card` |
-| `MCO (Colombia)`  | `With account money`                         |
-| `MLU (Uruguay)`   | `With account money`                         |
-| `MLC (Chile)`     | `With account money`                         |
-| `MPE (Peru)`      | `With account money`                         |
+| Country                 | Fallback text                                |
+| ----------------------- | -------------------------------------------- |
+| :argentina: `Argentina` | `Account money or installments with no card` |
+| :brazil: `Brazil`       | `Account money or installments with no card` |
+| :mexico: `Mexico`       | `Account money or installments with no card` |
+| :colombia: `Colombia`   | `With account money`                         |
+| :uruguay: `Uruguay`     | `With account money`                         |
+| :chile: `Chile`         | `With account money`                         |
+| :peru: `Peru`           | `With account money`                         |
 
 <br>
 
