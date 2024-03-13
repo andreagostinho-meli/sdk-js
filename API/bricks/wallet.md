@@ -210,15 +210,15 @@ Customizations object is used to load Brick under different conditions.
 
 #### Value prop availability
 
-| Country                 | Value prop availability                                                                                                                  |
-| ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| :argentina: `Argentina` | `practicality`, `convenience_all`, `security_details`, `security_safety`, `convenience_credits`, `smart_option`, `payment_methods_logos` |
-| :brazil: `Brazil`       | `practicality`, `convenience_all`, `security_details`, `security_safety`, `convenience_credits`, `smart_option`, `payment_methods_logos` |
-| :mexico: `Mexico`       | `practicality`, `convenience_all`, `security_details`, `security_safety`, `convenience_credits`, `smart_option`, `payment_methods_logos` |
-| :colombia: `Colombia`   | `practicality`, `security_details`, `security_safety`, `smart_option`,`payment_methods_logos`                                            |
-| :uruguay: `Uruguay`     | `practicality`, `security_details`, `security_safety`, `smart_option`, `payment_methods_logos`                                           |
-| :chile: `Chile`         | `practicality`, `security_details`, `security_safety`, `smart_option`, `payment_methods_logos`                                           |
-| :peru: `Peru`           | `practicality`, `security_details`, `security_safety`, `smart_option`, `payment_methods_logos`                                           |
+| Country                | Value prop availability                                                                                                                  |
+| ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| :argentina:`Argentina` | `practicality`, `convenience_all`, `security_details`, `security_safety`, `convenience_credits`, `smart_option`, `payment_methods_logos` |
+| :brazil: `Brazil`      | `practicality`, `convenience_all`, `security_details`, `security_safety`, `convenience_credits`, `smart_option`, `payment_methods_logos` |
+| :mexico: `Mexico`      | `practicality`, `convenience_all`, `security_details`, `security_safety`, `convenience_credits`, `smart_option`, `payment_methods_logos` |
+| :colombia: `Colombia`  | `practicality`, `security_details`, `security_safety`, `smart_option`,`payment_methods_logos`                                            |
+| :uruguay: `Uruguay`    | `practicality`, `security_details`, `security_safety`, `smart_option`, `payment_methods_logos`                                           |
+| :chile: `Chile`        | `practicality`, `security_details`, `security_safety`, `smart_option`, `payment_methods_logos`                                           |
+| :peru: `Peru`          | `practicality`, `security_details`, `security_safety`, `smart_option`, `payment_methods_logos`                                           |
 
 > [!CAUTION] > **Important notice about `payment_methods_logos`**<br>
 > When using using the value prop `payment_methods_logos`, it is recommended to initialize Wallet Brick with a preference.<br>
