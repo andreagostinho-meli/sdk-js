@@ -221,7 +221,8 @@ Customizations object is used to load Brick under different conditions.
 | :chile: `Chile`         | `practicality`, `security_details`, `security_safety`, `smart_option`, `payment_methods_logos`                                           |
 | :peru: `Peru`           | `practicality`, `security_details`, `security_safety`, `smart_option`, `payment_methods_logos`                                           |
 
-> [!CAUTION] > **Important notice about `payment_methods_logos`**<br>
+> [!CAUTION]
+> **Important notice about `payment_methods_logos`**<br>
 > When using the value prop `payment_methods_logos`, it is recommended to initialize Wallet Brick with a preference.<br>
 > If the preference has zero or only one valid payment method, Wallet Brick will stop displaying the payment methods logos and will show a fallback text according to the country.<br>
 > See the table below to know each fallback text.
